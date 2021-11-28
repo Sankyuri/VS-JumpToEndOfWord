@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="JumpToEndOfWord.1494c66e-73ae-4377-a8b7-b1f9b200e2fb" Version="1.2" Language="en-US" Publisher="S. Eickelberg" />
+        <Identity Id="JumpToEndOfWord.1494c66e-73ae-4377-a8b7-b1f9b200e2fb" Version="1.1.1" Language="en-US" Publisher="S. Eickelberg" />
         <DisplayName>Jump To End Of Word</DisplayName>
         <Description xml:space="preserve">Move the text cursor to the end of the current word before moving it to the start of the next word and vice versa in the opposite direction.</Description>
     </Metadata>

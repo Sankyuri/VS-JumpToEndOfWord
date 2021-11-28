@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d1dd44bd-58d3-4224-afa7-59562ebde990</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>JEWShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AnchorFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JumpToEndOfWord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JumpToEndOfWordExtend.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JumpToEndOfWordPackage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JumpToStartOfWord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JumpToStartOfWordExtend.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)VSPackage.resx" />
+  </ItemGroup>
+</Project>
