@@ -9,6 +9,7 @@ using Task = System.Threading.Tasks.Task;
 
 using System.Linq;
 using EnvDTE;
+using EnvDTE80;
 using Microsoft;
 
 namespace JumpToEndOfWord
@@ -93,7 +94,7 @@ namespace JumpToEndOfWord
         private void Execute(object sender, EventArgs e)
         {
             ThreadHelper.ThrowIfNotOnUIThread();
-            var dte = ServiceProvider.GetService(typeof(DTE)) as DTE;
+            var dte = ServiceProvider.GetService(typeof(_DTE)) as DTE2;
             if (dte == null)
                 return;
             Document CurrentDoc = dte.ActiveDocument;
