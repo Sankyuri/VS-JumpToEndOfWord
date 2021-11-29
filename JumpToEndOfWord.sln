@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpToEndOfWordForVS2022", 
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		JEWShared\JEWShared.projitems*{3d5ff1e8-fdcc-46dc-aef7-b32c8ca593ee}*SharedItemsImports = 4
+		JEWShared\JEWShared.projitems*{8e360075-52a4-4a1c-b47a-487d8a4131c6}*SharedItemsImports = 4
 		JEWShared\JEWShared.projitems*{d1dd44bd-58d3-4224-afa7-59562ebde990}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
